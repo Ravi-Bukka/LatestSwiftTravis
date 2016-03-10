@@ -1,3 +1,3 @@
-#MovingHelper
+#LatestSwiftTravis
 
-A sample project for a [RayWenderlich.com](http://www.raywenderlich.com) tutorial on setting up continuous integration with GitHub and Travis CI. 
+A sample project for testing on setting up continuous integration with GitHub and Travis CI. 
