@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB74487F1C913D20002E0C23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB74487E1C913D20002E0C23 /* AppDelegate.swift */; };
+		AB7448811C913D20002E0C23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7448801C913D20002E0C23 /* ViewController.swift */; };
+		AB7448841C913D20002E0C23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7448821C913D20002E0C23 /* Main.storyboard */; };
+		AB7448871C913D20002E0C23 /* LatestSwiftTravis.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB7448851C913D20002E0C23 /* LatestSwiftTravis.xcdatamodeld */; };
+		AB7448891C913D20002E0C23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB7448881C913D20002E0C23 /* Assets.xcassets */; };
+		AB74488C1C913D20002E0C23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB74488A1C913D20002E0C23 /* LaunchScreen.storyboard */; };
+		AB7448971C913D20002E0C23 /* LatestSwiftTravisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7448961C913D20002E0C23 /* LatestSwiftTravisTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB7448931C913D20002E0C23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB7448731C913D20002E0C23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB74487A1C913D20002E0C23;
+			remoteInfo = LatestSwiftTravis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB74487B1C913D20002E0C23 /* LatestSwiftTravis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LatestSwiftTravis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB74487E1C913D20002E0C23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB7448801C913D20002E0C23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB7448831C913D20002E0C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB7448861C913D20002E0C23 /* LatestSwiftTravis.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LatestSwiftTravis.xcdatamodel; sourceTree = "<group>"; };
+		AB7448881C913D20002E0C23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB74488B1C913D20002E0C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB74488D1C913D20002E0C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB7448921C913D20002E0C23 /* LatestSwiftTravisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LatestSwiftTravisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7448961C913D20002E0C23 /* LatestSwiftTravisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestSwiftTravisTests.swift; sourceTree = "<group>"; };
+		AB7448981C913D20002E0C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB7448781C913D20002E0C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB74488F1C913D20002E0C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB7448721C913D20002E0C23 = {
+			isa = PBXGroup;
+			children = (
+				AB74487D1C913D20002E0C23 /* LatestSwiftTravis */,
+				AB7448951C913D20002E0C23 /* LatestSwiftTravisTests */,
+				AB74487C1C913D20002E0C23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB74487C1C913D20002E0C23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB74487B1C913D20002E0C23 /* LatestSwiftTravis.app */,
+				AB7448921C913D20002E0C23 /* LatestSwiftTravisTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB74487D1C913D20002E0C23 /* LatestSwiftTravis */ = {
+			isa = PBXGroup;
+			children = (
+				AB74487E1C913D20002E0C23 /* AppDelegate.swift */,
+				AB7448801C913D20002E0C23 /* ViewController.swift */,
+				AB7448821C913D20002E0C23 /* Main.storyboard */,
+				AB7448881C913D20002E0C23 /* Assets.xcassets */,
+				AB74488A1C913D20002E0C23 /* LaunchScreen.storyboard */,
+				AB74488D1C913D20002E0C23 /* Info.plist */,
+				AB7448851C913D20002E0C23 /* LatestSwiftTravis.xcdatamodeld */,
+			);
+			path = LatestSwiftTravis;
+			sourceTree = "<group>";
+		};
+		AB7448951C913D20002E0C23 /* LatestSwiftTravisTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB7448961C913D20002E0C23 /* LatestSwiftTravisTests.swift */,
+				AB7448981C913D20002E0C23 /* Info.plist */,
+			);
+			path = LatestSwiftTravisTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB74487A1C913D20002E0C23 /* LatestSwiftTravis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB74489B1C913D20002E0C23 /* Build configuration list for PBXNativeTarget "LatestSwiftTravis" */;
+			buildPhases = (
+				AB7448771C913D20002E0C23 /* Sources */,
+				AB7448781C913D20002E0C23 /* Frameworks */,
+				AB7448791C913D20002E0C23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LatestSwiftTravis;
+			productName = LatestSwiftTravis;
+			productReference = AB74487B1C913D20002E0C23 /* LatestSwiftTravis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB7448911C913D20002E0C23 /* LatestSwiftTravisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB74489E1C913D20002E0C23 /* Build configuration list for PBXNativeTarget "LatestSwiftTravisTests" */;
+			buildPhases = (
+				AB74488E1C913D20002E0C23 /* Sources */,
+				AB74488F1C913D20002E0C23 /* Frameworks */,
+				AB7448901C913D20002E0C23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB7448941C913D20002E0C23 /* PBXTargetDependency */,
+			);
+			name = LatestSwiftTravisTests;
+			productName = LatestSwiftTravisTests;
+			productReference = AB7448921C913D20002E0C23 /* LatestSwiftTravisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB7448731C913D20002E0C23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = v2solutions;
+				TargetAttributes = {
+					AB74487A1C913D20002E0C23 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					AB7448911C913D20002E0C23 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = AB74487A1C913D20002E0C23;
+					};
+				};
+			};
+			buildConfigurationList = AB7448761C913D20002E0C23 /* Build configuration list for PBXProject "LatestSwiftTravis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB7448721C913D20002E0C23;
+			productRefGroup = AB74487C1C913D20002E0C23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB74487A1C913D20002E0C23 /* LatestSwiftTravis */,
+				AB7448911C913D20002E0C23 /* LatestSwiftTravisTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB7448791C913D20002E0C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB74488C1C913D20002E0C23 /* LaunchScreen.storyboard in Resources */,
+				AB7448891C913D20002E0C23 /* Assets.xcassets in Resources */,
+				AB7448841C913D20002E0C23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7448901C913D20002E0C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB7448771C913D20002E0C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7448811C913D20002E0C23 /* ViewController.swift in Sources */,
+				AB7448871C913D20002E0C23 /* LatestSwiftTravis.xcdatamodeld in Sources */,
+				AB74487F1C913D20002E0C23 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB74488E1C913D20002E0C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7448971C913D20002E0C23 /* LatestSwiftTravisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB7448941C913D20002E0C23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB74487A1C913D20002E0C23 /* LatestSwiftTravis */;
+			targetProxy = AB7448931C913D20002E0C23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB7448821C913D20002E0C23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB7448831C913D20002E0C23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB74488A1C913D20002E0C23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB74488B1C913D20002E0C23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB7448991C913D20002E0C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos9.2;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB74489A1C913D20002E0C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB74489C1C913D20002E0C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LatestSwiftTravis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.v2.LatestSwiftTravis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB74489D1C913D20002E0C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LatestSwiftTravis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.v2.LatestSwiftTravis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB74489F1C913D20002E0C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LatestSwiftTravisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.v2.LatestSwiftTravisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LatestSwiftTravis.app/LatestSwiftTravis";
+			};
+			name = Debug;
+		};
+		AB7448A01C913D20002E0C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LatestSwiftTravisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.v2.LatestSwiftTravisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LatestSwiftTravis.app/LatestSwiftTravis";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB7448761C913D20002E0C23 /* Build configuration list for PBXProject "LatestSwiftTravis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7448991C913D20002E0C23 /* Debug */,
+				AB74489A1C913D20002E0C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB74489B1C913D20002E0C23 /* Build configuration list for PBXNativeTarget "LatestSwiftTravis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB74489C1C913D20002E0C23 /* Debug */,
+				AB74489D1C913D20002E0C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB74489E1C913D20002E0C23 /* Build configuration list for PBXNativeTarget "LatestSwiftTravisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB74489F1C913D20002E0C23 /* Debug */,
+				AB7448A01C913D20002E0C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AB7448851C913D20002E0C23 /* LatestSwiftTravis.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AB7448861C913D20002E0C23 /* LatestSwiftTravis.xcdatamodel */,
+			);
+			currentVersion = AB7448861C913D20002E0C23 /* LatestSwiftTravis.xcdatamodel */;
+			path = LatestSwiftTravis.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AB7448731C913D20002E0C23 /* Project object */;
+}
