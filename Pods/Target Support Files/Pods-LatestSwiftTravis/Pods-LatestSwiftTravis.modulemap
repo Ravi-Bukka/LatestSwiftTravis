@@ -1,0 +1,6 @@
+framework module Pods_LatestSwiftTravis {
+  umbrella header "Pods-LatestSwiftTravis-umbrella.h"
+
+  export *
+  module * { export * }
+}

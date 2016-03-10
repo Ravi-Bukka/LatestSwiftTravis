@@ -20,6 +20,20 @@
                ReferencedContainer = "container:LatestSwiftTravis.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "97A6DEF265F77B885CC29D9F2A778013"
+               BuildableName = "Pods_LatestSwiftTravis.framework"
+               BlueprintName = "Pods-LatestSwiftTravis"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
